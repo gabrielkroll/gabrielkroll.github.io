@@ -240,7 +240,7 @@ a {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        border: 1px solid $light;
+        border: none;
     }
     /* Added in { Personal } */
     ul,
@@ -298,7 +298,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: $social-buttons-color;
-    background-color: #222;
+    background-color: #020403;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -307,7 +307,7 @@ ul.social-buttons li a {
     &:hover,
     &:focus,
     &:active {
-        color: #222;
+        color: #020403;
         background-color: darken($social-buttons-color, 10%);
     }
 }
